@@ -1,0 +1,31 @@
+name: SimpleTpo
+
+version: 1.0.0
+
+api: 4.0.0
+
+main: FantasyGirl1988\SimpleTpo\Main 
+
+author: FantasyGirl1988
+
+commands:
+
+ tpo:
+
+  description: "Teleportiere dich zu einrn Spieler!"
+
+  permission: tpo.cmd
+
+ tpohere:
+
+  description: "Teleportiere eine  Spieler zu dir!"
+
+  permission: tpo.cmd
+
+  
+
+permissions:
+
+ tpo.cmd:
+
+  default: op
